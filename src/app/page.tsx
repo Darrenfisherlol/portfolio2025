@@ -1,10 +1,28 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Timeline from "./components/timeline/timeline";
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      
+      <div>
+        https://www.awwwards.com/sites/navigate
+      </div>
+      <nav>
+        <p>DF</p>
+        <p>Experience</p>
+        <p>Tech Stack & Projects</p>
+        <p>Linkedin</p>
+        <button>Contact Me</button>
+      </nav>
+
+
       <main className={styles.main}>
+
+        <div>page intro</div>
+        <Timeline/>
+
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -45,8 +63,10 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+
+
       </main>
-      <footer className={styles.footer}>
+      <div className={styles.footer}>
         <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
@@ -89,6 +109,26 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
+      </div>
+      <footer>
+
+        <div>
+          Darren Fisher
+          <button> Contact me</button>
+        </div>
+
+        <div>
+          Experience
+          Projects
+          Tech Stack
+        </div>
+        <div>
+        Social:
+        Linkedin
+        Github
+      
+        <button> Back to top</button>
+        </div>
       </footer>
     </div>
   );
