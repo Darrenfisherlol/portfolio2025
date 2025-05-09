@@ -2,16 +2,29 @@ import { Fragment } from "react"
 
 
 
+function JobCard()
+{
 
 
-
-
-export default function Timeline(){
-
-    return
-    (
+    return (
         <>
-            stuff
+            aa
         </>
-    )
+
+    );
 }
+
+
+
+function Timeline()
+{
+
+    return (
+        <>
+            <JobCard/>
+            bb
+        </>
+    );
+}
+
+export default Timeline;
