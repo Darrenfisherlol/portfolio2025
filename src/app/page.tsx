@@ -3,35 +3,31 @@ import styles from "./page.module.css";
 
 
 import Timeline from "./components/timeline/timeline";
-
+import Header from "./components/header/header"
 
 export default function Home() {
   return (
+
     <div className={styles.page}>
  
-        <header> 
-          <h2>DF</h2>
-          <ul>
-            <li>Experience</li>
-            <li>Tech Stack & Projects</li>
-            <li>Linkedin</li>
-            <li><button>Contact Me</button></li>
-          </ul>
-        </header>
-      
-
+      <Header/>
+        
       <main className={styles.main}>
-
-        <div>
-          refs:
-          https://www.awwwards.com/sites/navigate
-        </div>
 
         <div>page intro</div>
 
-        <Timeline/>
+        <div>
+          blocks of tech stack ?? ?? 
+          C#, Python, React, TS, HTML, CSS, Java
+          ASP.NET Core, .Net Framework
+          Resharper, VSCode, Docker, Git
+          Snowflake, 
+          GCP, Azure, AWS,
+          Airflow, Dagster, SSIS,
+          Azure Data Studio, SSMS
+        </div>
 
-        
+        <Timeline/>
 
       </main>
       <div className={styles.footer}>
