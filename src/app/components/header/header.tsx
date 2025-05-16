@@ -5,14 +5,14 @@ export default function Header(){
 
     return(
         <>
-            <header> 
+            <header>
                 <h2>DF</h2>
-                <ul>
-                    <ul>Experience</ul>
-                    <ul>Tech Stack & Projects</ul>
-                    <ul>Linkedin</ul>
-                    <ul><button>Contact Me</button></ul>
-                </ul>
+                <div>
+                    <a href="#ExperienceSection">Experience</a>
+                    <a href="#TechStackSection">Tech Stack</a>
+                    <a href="#ProjectsSection">Projects</a>
+                    <a href="https://www.linkedin.com/in/darrenafisher/">Linkedin/Contact Me</a>
+                </div>
             </header>
         </>
     );

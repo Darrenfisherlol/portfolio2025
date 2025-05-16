@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
+// CSS 80% of it lol
+// https://cssreference.io/flexbox/
 
 import Timeline from "./components/timeline/timeline";
 import Header from "./components/header/header"
@@ -16,9 +18,9 @@ export default function Home() {
 
         <div>page intro</div>
 
-        <div>
+        <div id="TechStackSection">
           blocks of tech stack ?? ?? 
-          C#, Python, React, TS, HTML, CSS, Java
+          C#, Python, React, JS, TS, HTML, CSS, Java
           ASP.NET Core, .Net Framework
           Resharper, VSCode, Docker, Git
           Snowflake, 
@@ -29,67 +31,37 @@ export default function Home() {
 
         <Timeline/>
 
+      
+    
+
+        <div id="ProjectsSection">
+          Projects:
+          - Logistics Passion Project
+          - Portfolio 2024 vs 2025
+          - Coffee Shop MVC ASP.Net "CRUD 101"
+        </div>
       </main>
-      <div className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </div>
       <footer>
 
         <div>
           Darren Fisher
-          <button> Contact me</button>
+          <a href="https://www.linkedin.com/in/darrenafisher/">
+            <button>Contact Me</button>
+          </a>
         </div>
 
         <div>
-          Experience
-          Projects
-          Tech Stack
+          
+          <a href="#ExperienceSection">Experience</a>
+          <a href="#TechStackSection">Tech Stack</a>
+          <a href="#ProjectsSection">Projects</a>
+
         </div>
         <div>
-        Social:
-        Linkedin
-        Github
+        Socials:
+        <a href="https://www.linkedin.com/in/darrenafisher/">Linkedin</a>
+        <a href="https://github.com/Darrenfisherlol">Github</a>
+        
       
         <button> Back to top</button>
         </div>

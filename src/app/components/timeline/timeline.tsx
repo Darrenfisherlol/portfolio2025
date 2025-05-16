@@ -40,8 +40,12 @@ function Timeline()
 
     return (
         <>
-        <GetData/>
+        <div id="ExperienceSection">
+            <h2> Experience </h2>
+            <GetData/>
+        </div>
         </>
+        
     );
 }
 
