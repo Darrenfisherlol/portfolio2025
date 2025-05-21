@@ -6,7 +6,7 @@ import styles from "./page.module.css";
 
 import Timeline from "./components/timeline/timeline";
 import Header from "./components/header/header"
-
+import TechStack from "./components/techstack/TechStack"
 export default function Home() {
   return (
 
@@ -18,6 +18,12 @@ export default function Home() {
 
         <div>page intro</div>
 
+{/* https://icons.getbootstrap.com/icons/shop/ */}
+{/* https://icons.getbootstrap.com/icons/airplane-engines/ */}
+{/* https://icons.getbootstrap.com/icons/cash-coin/ */}
+
+        <TechStack/>
+        
         <div id="TechStackSection">
           blocks of tech stack ?? ?? 
           C#, Python, React, JS, TS, HTML, CSS, Java

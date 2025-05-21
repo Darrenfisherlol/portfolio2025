@@ -6,7 +6,7 @@ export const jobs = [
         JobTitle: "Full Stack Engineer",
         StartData: "Nov 2024",
         EndData: "Current",
-        JobDesc:"I’m helping modernize a legacy web application by migrating from AngularJS (yes angular 1 lol) and .NET Framework to the latest versions of React and ASP.NET Core. I build infrastructure components in C# to support scalable architecture and meet strict security requirements. I also revamp React components to match updated UI/UX designs, resolving long-standing bugs and improving overall responsiveness."
+        JobDesc:"I’m helping modernize a legacy web application by migrating from AngularJS (yes angular 1 lol) and .NET Framework to the latest versions of React and ASP.NET Core. I build components in C# to support scalable architecture and meet strict DOD security requirements. I also revamp React components to match updated UI/UX designs, resolving long-standing bugs and improving overall responsiveness."
     },
     {
         Id: 1,
@@ -14,7 +14,7 @@ export const jobs = [
         JobTitle: "Quant Analyst",
         StartData: "Nov 2023",
         EndData: "Sep 2024",
-        JobDesc:"I automated data workflows with Python pipelines integrated into Azure SQL and MS SQL, achieving over $218K in annual cost savings. I built credit forecasting models using third-party APIs to optimize commodity purchasing and cut interest expenses by $168K. I also maintained SQL stored procedures to refresh 20+ views and tables, eliminating 5+ hours of daily manual reporting."
+        JobDesc:"I automated data workflows with Python pipelines integrating them into Azure SQL and MS SQL, achieving over $218K in annual cost savings. I built credit forecasting models using third-party API data to optimize commodity purchasing and cut interest expenses by $168K. I also maintained SQL +20 views, tables, and stored procedures, eliminating 5+ hours of daily manual reporting."
     },
     {
         Id: 2,
@@ -22,7 +22,7 @@ export const jobs = [
         JobTitle: "Data Engineer / BI Engineer Intern",
         StartData: "May 2022",
         EndData: "Dec 2022",
-        JobDesc:"I designed SQL ETL processes in Snowflake and SSMS to enhance financial reporting across 700+ retail locations. I built data pipelines from AWS S3 to Snowflake, creating 25 new analytical tables to improve data accessibility. I also automated processing with Apache Airflow and SSIS, cutting fuel analytics processing time by 66%."
+        JobDesc:"I designed SQL ETL processes in Snowflake and SSMS to enhance financial reporting across +700 retail locations. I built data pipelines from AWS S3 to Snowflake, creating 25 new analytical tables to improve data accessibility. I also automated processing with Apache Airflow and SSIS, cutting fuel analytics processing time by 66%."
     }
 ];
 
