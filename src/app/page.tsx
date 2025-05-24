@@ -1,26 +1,19 @@
-import Image from "next/image";
 import styles from "./page.module.css";
-
-// CSS 80% of it lol
-// https://cssreference.io/flexbox/
 
 import Timeline from "./components/timeline/timeline";
 import Header from "./components/header/header"
 import TechStack from "./components/techstack/TechStack"
+
 export default function Home() {
   return (
 
     <div className={styles.page}>
- 
+    
       <Header/>
         
       <main className={styles.main}>
 
         <div>page intro</div>
-
-{/* https://icons.getbootstrap.com/icons/shop/ */}
-{/* https://icons.getbootstrap.com/icons/airplane-engines/ */}
-{/* https://icons.getbootstrap.com/icons/cash-coin/ */}
 
         <TechStack/>
         
