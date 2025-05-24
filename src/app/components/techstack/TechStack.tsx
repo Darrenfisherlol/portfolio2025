@@ -1,15 +1,24 @@
 import { Fragment } from "react";
-import LinkedinIcon from "../../../assets/svg/LinkedIn.svg";
-import JavaIcon from "../../../assets/svg/Java--Streamline-Svg-Logos.svg";
+import Icons from "./icons"
+// react-icons
+import { FaAws } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { BiLogoGoogleCloud } from "react-icons/bi";
+import { VscAzureDevops } from "react-icons/vsc";
+
+
+
 
 export default function TechStack() {
   return (
     <>
-        <img src={LinkedinIcon} title="LinkedIn" />
-        {/* <JavaIcon title="Java" /> */}
+        <h3>React Icons</h3>
 
-        <img src="../../../assets/svg/LinkedIn.svg" alt="LinkedIn" />
-        <img src="../../../assets/svg/Java--Streamline-Svg-Logos.svg" alt="Java" />
+        <Icons/>
+
     </>
   );
 }
