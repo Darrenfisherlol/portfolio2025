@@ -1,21 +1,25 @@
-.Header {
+.HeaderBox {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #f5f5f5;
-  width: 100%;
-  box-sizing: border-box;
+  background-color: rgb(250, 227, 207);
+  border-radius: 12px;
+  height: 60px;
 }
 
 .HeaderLeft {
   font-size: 1.5rem;
-  font-weight: bold;
   cursor: pointer;
+  padding-left: 20px;
 }
 
 .HeaderRight {
-  display: flex;
-  align-items: center;
-  gap: 15px; /* space between nav items */
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.HeaderRight a {
+    padding: 0px 20px;
+    text-decoration: none;
+    color: inherit
 }

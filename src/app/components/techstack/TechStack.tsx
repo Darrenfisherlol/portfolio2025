@@ -15,8 +15,6 @@ import { VscAzureDevops } from "react-icons/vsc";
 export default function TechStack() {
   return (
     <>
-        <h3>React Icons</h3>
-
         <Icons/>
 
     </>

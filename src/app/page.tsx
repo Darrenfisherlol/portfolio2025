@@ -1,8 +1,9 @@
 import styles from "./page.module.css";
 
-import Timeline from "./components/timeline/timeline";
-import Header from "./components/header/header"
-import TechStack from "./components/techstack/TechStack"
+import JobCard from "./components/Jobcard/Jobcard";
+import Header from "./components/Header/Header"
+import TechStack from "./components/Techstack/TechStack"
+import Footer from "./components/Footer/Footer"
 
 export default function Home() {
   return (
@@ -13,58 +14,21 @@ export default function Home() {
         
       <main className={styles.main}>
 
-        <div>page intro</div>
+        <JobCard/>
 
-        <TechStack/>
-        
         <div id="TechStackSection">
-          blocks of tech stack ?? ?? 
-          C#, Python, React, JS, TS, HTML, CSS, Java
-          ASP.NET Core, .Net Framework
-          Resharper, VSCode, Docker, Git
-          Snowflake, 
-          GCP, Azure, AWS,
-          Airflow, Dagster, SSIS,
-          Azure Data Studio, SSMS
+          <TechStack/>
         </div>
-
-        <Timeline/>
 
       
     
 
         <div id="ProjectsSection">
-          Projects:
-          - Logistics Passion Project
-          - Portfolio 2024 vs 2025
-          - Coffee Shop MVC ASP.Net "CRUD 101"
         </div>
+
       </main>
-      <footer>
+      <Footer/>
 
-        <div>
-          Darren Fisher
-          <a href="https://www.linkedin.com/in/darrenafisher/">
-            <button>Contact Me</button>
-          </a>
-        </div>
-
-        <div>
-          
-          <a href="#ExperienceSection">Experience</a>
-          <a href="#TechStackSection">Tech Stack</a>
-          <a href="#ProjectsSection">Projects</a>
-
-        </div>
-        <div>
-        Socials:
-        <a href="https://www.linkedin.com/in/darrenafisher/">Linkedin</a>
-        <a href="https://github.com/Darrenfisherlol">Github</a>
-        
-      
-        <button> Back to top</button>
-        </div>
-      </footer>
     </div>
   );
 }

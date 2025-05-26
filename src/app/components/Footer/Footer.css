@@ -1,0 +1,28 @@
+.footerBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    background-color: rgb(250, 227, 207);
+    border-radius: 12px;
+    font-size: 1.25rem;
+}
+
+.leftBox,
+.midBox,
+.rightBox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.midBox a {
+    text-decoration: none;
+    color: inherit
+}
+
+.leftBox a {
+    text-decoration: none;
+    color: inherit
+}

@@ -6,7 +6,7 @@ export const jobs = [
         JobTitle: "Full Stack Engineer",
         StartData: "Nov 2024",
         EndData: "Current",
-        JobDesc:"I’m helping modernize a legacy web application by migrating from AngularJS (yes angular 1 lol) and .NET Framework to the latest versions of React and ASP.NET Core. I build components in C# to support scalable architecture and meet strict DOD security requirements. I also revamp React components to match updated UI/UX designs, resolving long-standing bugs and improving overall responsiveness."
+        JobDesc:"I’m helping modernize a legacy web application by migrating from vanilla HTML/AngularJS (yes angular 1 lol) and .NET Framework to the latest versions of React and ASP.Net Core. I build components in C# to support scalable architecture and meet strict DOD security requirements. I also revamp React components to match updated UI/UX designs, resolving long-standing bugs and improving overall responsiveness."
     },
     {
         Id: 1,

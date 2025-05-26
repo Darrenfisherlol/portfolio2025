@@ -1,0 +1,16 @@
+
+.experienceSection{
+ margin-top: 50px;   
+
+}
+
+.jobSection{
+}
+
+.jobBox{
+    max-width: 50%;
+    padding: 5px 20px;
+    margin: 20px;
+    background-color: rgb(250, 227, 207);
+    border-radius: 12px;
+}
